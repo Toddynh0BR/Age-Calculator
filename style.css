@@ -2,8 +2,23 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
 }
 
 :root {
  font-size: 62.5%;
+
+ --Purple: hsl(259, 100%, 65%);
+ --Dark-Purple: hsl(228, 45%, 44%);
+ --Light-red: hsl(0, 100%, 67%);
+ --White: hsl(0, 0%, 100%);
+ --Off-white: hsl(0, 0%, 94%);
+ --Light-grey: hsl(0, 0%, 86%);
+ --Smokey-grey: hsl(0, 1%, 44%);
+ --Off-black: hsl(0, 0%, 8%);
+
+ /*  Font size (inputs): 32px
+     Mobile: 375px
+     Desktop: 1440px
+*/
 }
