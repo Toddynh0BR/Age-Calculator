@@ -21,7 +21,7 @@
 
         <div class="wrapper">
             <label for="DAY">DAY</label>
-            <input type="text" id="DAY" placeholder="DD" maxlength="2">
+            <input type="text" id="DAY" placeholder="DD"  autocomplete="off">
             <p id="NULL1" class="error">This field is requered</p>
             <p id="InvalidDay" class="error">Must be a valid day</p>
             <p id="InvalidDate1" class="error">Must be a valid date</p>
@@ -29,14 +29,14 @@
 
         <div class="wrapper">
             <label for="MONTH">MONTH</label>
-            <input type="text" id="MONTH" placeholder="MM" maxlength="2">
+            <input type="text" id="MONTH" placeholder="MM" translate="no"  autocomplete="off">
             <p id="NULL2" class="error">This field is requered</p>
             <p id="InvalidDay" class="error">Must be a valid month</p>
         </div>
 
         <div class="wrapper">
             <label for="YEAR">YEAR</label>
-            <input type="text" id="YEAR" placeholder="YYYY" maxlength="4">
+            <input type="text" id="YEAR" placeholder="YYYY"  autocomplete="off">
             <p id="NULL3" class="error">This field is requered</p>
             <p id="InvalidDay" class="error">Must be in the past</p>
         </div>
@@ -60,5 +60,15 @@
     </div>
    </main>
 
+
+
+   <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+   <script>
+    $('#DAY').mask('99')
+    $('#MONTH').mask('99')
+    $('#YEAR').mask('9999')
+   </script>
 </body>
 </html>
