@@ -88,9 +88,6 @@ input:focus {
  gap: 1rem;
 }
 
-.error {
- display: none;
-}
 
 
 
@@ -186,4 +183,22 @@ span {
  width: 3.5rem;
  height: 3.5rem;
  }
+}
+
+
+.error {
+ font-size: 1.2rem;
+ font-weight: 500;
+ color:  var(--Light-red);
+}
+
+input.ERROR {
+ border: 1px solid var(--Light-red);
+}
+label.ERROR {
+ color: var(--Light-red);
+}
+
+.hide {
+ display: none;
 }
