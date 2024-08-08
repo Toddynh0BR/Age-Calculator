@@ -141,7 +141,7 @@ span {
  cursor: pointer;
 }
 
-@media (max-width: 400px){
+@media (max-width: 430px){
  main {
  border-radius: 3rem 3rem 8rem 3rem;
  padding: 3rem;
